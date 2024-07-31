@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(120deg, #111727, #272c47);
+  color: white;
+  font-family: 'Jockey One', sans-serif;
+  min-height: 100vh;
+  opacity: 0.7;
+}
+.wrapper {
+  margin-top: 2%;
+  text-align: center;
+}
+.wrapper h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 130px;
+  position: relative;
+}
+
+.wrapper h1 hr {
+  width: 10%;
+  position: absolute;
+  left: 45.2%;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 0.2px solid #fff;
+}
+
+.wrapper .team-wrapper {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.team {
+  margin: 30px 30px 15px 30px;
+  border-radius: 20px;
+  background-color: #3b3b3f71;
+  padding: 60px 30px 60px 30px;
+  position: relative;
+  opacity: 1;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.team-img {
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-53%);
+}
+.team-img img {
+  border-radius: 50%;
+}
+.team h3 {
+  font-size: 2.1rem;
+  margin: 40px;
+}
+
+#contribution {
+  font-size: 1.9rem;
+  margin: 20px 0 20px 0;
+}
+
+.common {
+  font-size: 1.7rem;
+  color: rgb(184, 184, 184);
+}
+
+.role {
+  font-size: 2.1rem;
+  color: rgb(209, 231, 250);
+}
+
+#img2 {
+  background: #fff;
+}
+
+@media (max-width: 853px) {
+  .team {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team h3 {
+    font-size: 2rem;
+    margin: 40px;
+  }
+
+  #contribution {
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+  }
+
+  .common {
+    font-size: 1.5rem;
+  }
+
+  .role {
+    font-size: 1.9rem;
+  }
+}
+.goto-home:hover {
+  opacity: 1;
+  box-shadow: rgb(123, 180, 255) 3px 3px 0;
+  transition: all 0.4s ease;
+  transform: translateY(-6px);
+}
+.goto-home:active {
+  opacity: 1;
+  box-shadow: rgb(123, 180, 255) 3px 3px 0;
+}
+.social-links .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #ffffff;
+  cursor: pointer;
+  opacity: 0.7;
+  margin: 20px 5px 20px 5px;
+}
+.social-links .fa-brands:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  transition: all 0.4s ease;
+}
+.fa-solid {
+  width: 30px;
+  text-align: center;
+  opacity: 0.8;
+}
+.goto-home {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 28px;
+  background: transparent;
+  font-size: 25px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(40, 60, 177), rgb(99, 71, 150));
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.team:hover {
+  transform: translateY(-10px);
+  background-color: #111727;
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 1px #000000;
+}
+.team:active {
+  transform: translateY(-10px);
+  background-color: #111727;
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 1px #000000;
+}
+.goto-home:hover {
+  transform: translateY(-4px);
+  transition: all 0.4s ease;
+}
+.team:focus {
+  transform: translateY(-10px);
+  background-color: #111727;
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 1px #000000;
+}
+@media (max-width: 700px) {
+  .goto-home {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background: transparent;
+    font-size: 24px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(40, 60, 177), rgb(99, 71, 150));
+    transition: 0.3s;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
